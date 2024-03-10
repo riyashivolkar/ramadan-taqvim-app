@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "date": "2024-03-11 00:00",
+    "time": {
+      "morning": {
+        "hour": 5,
+        "minute": 23
+      },
+      "evening": {
+        "hour": 18,
+        "minute": 27
+      }
+    },
+    "region": "Tashkent"
+  },
+  {
+    "id": 2,
+    "date": "2024-03-12 00:00",
+    "time": {
+      "morning": {
+        "hour": 5,
+        "minute": 21
+      },
+      "evening": {
+        "hour": 18,
+        "minute": 28
+      }
+    },
+    "region": "Tashkent"
+  },
+  {
+    "id": 3,
+    "date": "2024-03-13 00:00",
+    "time": {
+      "morning": {
+        "hour": 5,
+        "minute": 20
+      },
+      "evening": {
+        "hour": 18,
+        "minute": 29
+      }
+    },
+    "region": "Tashkent"
+  },
+  {
+    "id": 4,
+    "date": "2024-03-14 00:00",
+    "time": {
+      "morning": {
+        "hour": 5,
+        "minute": 18
+      },
+      "evening": {
+        "hour": 18,
+        "minute": 31
+      }
+    },
+    "region": "Tashkent"
+  },
+  {
+    "id": 5,
+    "date": "2024-03-15 00:00",
+    "time": {
+      "morning": {
+        "hour": 5,
+        "minute": 16
+      },
+      "evening": {
+        "hour": 18,
+        "minute": 32
+      }
+    },
+    "region": "Tashkent"
+  },
+  {
+    "id": 6,
+    "date": "2024-03-16 00:00",
+    "time": {
+      "morning": {
+        "hour": 5,
+        "minute": 14
+      },
+      "evening": {
+        "hour": 18,
+        "minute": 33
+      }
+    },
+    "region": "Tashkent"
+  },
+  {
+    "id": 7,
+    "date": "2024-03-17 00:00",
+    "time": {
+      "morning": {
+        "hour": 5,
+        "minute": 13
+      },
+      "evening": {
+        "hour": 18,
+        "minute": 34
+      }
+    },
+    "region": "Tashkent"
+  },
+  {
+    "id": 8,
+    "date": "2024-03-18 00:00",
+    "time": {
+      "morning": {
+        "hour": 5,
+        "minute": 11
+      },
+      "evening": {
+        "hour": 18,
+        "minute": 35
+      }
+    },
+    "region": "Tashkent"
+  },
+  {
+    "id": 9,
+    "date": "2024-03-19 00:00",
+    "time": {
+      "morning": {
+        "hour": 5,
+        "minute": 9
+      },
+      "evening": {
+        "hour": 18,
+        "minute": 36
+      }
+    },
+    "region": "Tashkent"
+  },
+  {
+    "id": 10,
+    "date": "2024-03-20 00:00",
+    "time": {
+      "morning": {
+        "hour": 5,
+        "minute": 7
+      },
+      "evening": {
+        "hour": 18,
+        "minute": 37
+      }
+    },
+    "region": "Tashkent"
+  },
+  {
+    "id": 11,
+    "date": "2024-03-21 00:00",
+    "time": {
+      "morning": {
+        "hour": 5,
+        "minute": 5
+      },
+      "evening": {
+        "hour": 18,
+        "minute": 38
+      }
+    },
+    "region": "Tashkent"
+  },
+  {
+    "id": 12,
+    "date": "2024-03-22 00:00",
+    "time": {
+      "morning": {
+        "hour": 5,
+        "minute": 4
+      },
+      "evening": {
+        "hour": 18,
+        "minute": 39
+      }
+    },
+    "region": "Tashkent"
+  },
+  {
+    "id": 13,
+    "date": "2024-03-23 00:00",
+    "time": {
+      "morning": {
+        "hour": 5,
+        "minute": 2
+      },
+      "evening": {
+        "hour": 18,
+        "minute": 40
+      }
+    },
+    "region": "Tashkent"
+  },
+  {
+    "id": 14,
+    "date": "2024-03-24 00:00",
+    "time": {
+      "morning": {
+        "hour": 5,
+        "minute": 0
+      },
+      "evening": {
+        "hour": 18,
+        "minute": 42
+      }
+    },
+    "region": "Tashkent"
+  },
+  {
+    "id": 15,
+    "date": "2024-03-25 00:00",
+    "time": {
+      "morning": {
+        "hour": 4,
+        "minute": 58
+      },
+      "evening": {
+        "hour": 18,
+        "minute": 43
+      }
+    },
+    "region": "Tashkent"
+  },
+  {
+    "id": 16,
+    "date": "2024-03-26 00:00",
+    "time": {
+      "morning": {
+        "hour": 4,
+        "minute": 57
+      },
+      "evening": {
+        "hour": 18,
+        "minute": 44
+      }
+    },
+    "region": "Tashkent"
+  },
+  {
+    "id": 17,
+    "date": "2024-03-27 00:00",
+    "time": {
+      "morning": {
+        "hour": 4,
+        "minute": 55
+      },
+      "evening": {
+        "hour": 18,
+        "minute": 45
+      }
+    },
+    "region": "Tashkent"
+  },
+  {
+    "id": 18,
+    "date": "2024-03-28 00:00",
+    "time": {
+      "morning": {
+        "hour": 4,
+        "minute": 53
+      },
+      "evening": {
+        "hour": 18,
+        "minute": 46
+      }
+    },
+    "region": "Tashkent"
+  },
+  {
+    "id": 19,
+    "date": "2024-03-29 00:00",
+    "time": {
+      "morning": {
+        "hour": 4,
+        "minute": 51
+      },
+      "evening": {
+        "hour": 18,
+        "minute": 47
+      }
+    },
+    "region": "Tashkent"
+  },
+  {
+    "id": 20,
+    "date": "2024-03-30 00:00",
+    "time": {
+      "morning": {
+        "hour": 4,
+        "minute": 49
+      },
+      "evening": {
+        "hour": 18,
+        "minute": 48
+      }
+    },
+    "region": "Tashkent"
+  },
+  {
+    "id": 21,
+    "date": "2024-03-31 00:00",
+    "time": {
+      "morning": {
+        "hour": 4,
+        "minute": 48
+      },
+      "evening": {
+        "hour": 18,
+        "minute": 49
+      }
+    },
+    "region": "Tashkent"
+  },
+  {
+    "id": 22,
+    "date": "2024-04-01 00:00",
+    "time": {
+      "morning": {
+        "hour": 4,
+        "minute": 46
+      },
+      "evening": {
+        "hour": 18,
+        "minute": 50
+      }
+    },
+    "region": "Tashkent"
+  },
+  {
+    "id": 23,
+    "date": "2024-04-02 00:00",
+    "time": {
+      "morning": {
+        "hour": 4,
+        "minute": 44
+      },
+      "evening": {
+        "hour": 18,
+        "minute": 51
+      }
+    },
+    "region": "Tashkent"
+  },
+  {
+    "id": 24,
+    "date": "2024-04-03 00:00",
+    "time": {
+      "morning": {
+        "hour": 4,
+        "minute": 42
+      },
+      "evening": {
+        "hour": 18,
+        "minute": 52
+      }
+    },
+    "region": "Tashkent"
+  },
+  {
+    "id": 25,
+    "date": "2024-04-04 00:00",
+    "time": {
+      "morning": {
+        "hour": 4,
+        "minute": 40
+      },
+      "evening": {
+        "hour": 18,
+        "minute": 53
+      }
+    },
+    "region": "Tashkent"
+  },
+  {
+    "id": 26,
+    "date": "2024-04-05 00:00",
+    "time": {
+      "morning": {
+        "hour": 4,
+        "minute": 38
+      },
+      "evening": {
+        "hour": 18,
+        "minute": 54
+      }
+    },
+    "region": "Tashkent"
+  },
+  {
+    "id": 27,
+    "date": "2024-04-06 00:00",
+    "time": {
+      "morning": {
+        "hour": 4,
+        "minute": 36
+      },
+      "evening": {
+        "hour": 18,
+        "minute": 56
+      }
+    },
+    "region": "Tashkent"
+  },
+  {
+    "id": 28,
+    "date": "2024-04-07 00:00",
+    "time": {
+      "morning": {
+        "hour": 4,
+        "minute": 34
+      },
+      "evening": {
+        "hour": 18,
+        "minute": 57
+      }
+    },
+    "region": "Tashkent"
+  },
+  {
+    "id": 29,
+    "date": "2024-04-08 00:00",
+    "time": {
+      "morning": {
+        "hour": 4,
+        "minute": 33
+      },
+      "evening": {
+        "hour": 18,
+        "minute": 58
+      }
+    },
+    "region": "Tashkent"
+  },
+  {
+    "id": 30,
+    "date": "2024-04-09 00:00",
+    "time": {
+      "morning": {
+        "hour": 4,
+        "minute": 31
+      },
+      "evening": {
+        "hour": 18,
+        "minute": 59
+      }
+    },
+    "region": "Tashkent"
+  }
+]
