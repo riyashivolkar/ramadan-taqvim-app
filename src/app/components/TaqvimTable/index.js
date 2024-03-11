@@ -64,6 +64,9 @@ export default function TaqvimTable () {
                     <td className="px-4 py-3 lg:px-6 lg:py-4 font-semibold text-2xl">
                         {getComputedTime(entry?.date, filter, entry?.time?.evening, 'EVENING')}
                     </td>
+                    <div>
+                        
+                    </div>
                 </tr>
             )) : null}
             </tbody>
