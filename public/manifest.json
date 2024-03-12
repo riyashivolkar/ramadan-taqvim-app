@@ -28,5 +28,20 @@
             "sizes": "512x512",
             "type": "image/png"
         }
+    ],
+    "screenshots": [
+        {
+            "src": "/screenshot_browser.png",
+            "sizes": "2540x1358",
+            "type": "image/png",
+            "form_factor": "wide",
+            "label": "Ramazon Taqvim Widgets"
+        },{
+            "src": "/screenshot_mobile.jpg",
+            "sizes": "659×1280",
+            "type": "image/jpeg",
+            "form_factor": "narrow",
+            "label": "Ramazon Taqvim Widgets"
+        }
     ]
 }
