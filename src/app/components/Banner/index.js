@@ -7,6 +7,8 @@ import useSWR from "swr";
 import {fetcher} from "@/utils/fetcher";
 import useFilter from "@/hooks/useFilter";
 import {getComputedTime} from "@/utils/taqvimTableUtils";
+import dayjs from "dayjs";
+import 'dayjs/locale/uz-latn'
 
 
 const duaList = {
@@ -71,6 +73,7 @@ export default function Banner () {
                         {!isLoading ? getComputedTime(data?.date, filter, data?.time?.morning, 'MORNING')
                             : '...'}
                     </div>
+                    <p className='font-medium text-green-700 text-xl mt-0.5'>{dayjs().locale('uz-latn').format('D MMMM, YYYY')}</p>
                     <button
                         onClick={() => onDuaClickHandler('MORNING')}
                         className="today-item__button font-semibold mt-2.5 px-4 py-2 rounded-full border-2 border-green-700 bg-white text-green-500 shadow-xl">
@@ -84,6 +87,7 @@ export default function Banner () {
                     <div className='today-item__time font-extrabold text-green-700 text-6xl mt-1'>
                         {!isLoading ? getComputedTime(data?.date, filter, data?.time?.evening, 'EVENING') : '...'}
                     </div>
+                    <p className='font-medium text-green-700 text-xl mt-0.5'>{dayjs().locale('uz-latn').format('D MMMM, YYYY')}</p>
                     <button
                         onClick={() => onDuaClickHandler('EVENING')}
                         className="today-item__button font-semibold mt-2.5 px-4 py-2 rounded-full border-2 border-green-700 bg-white text-green-500 shadow-xl">
@@ -94,10 +98,10 @@ export default function Banner () {
             <ReactModal
                 isOpen={Boolean(duaModal)}
                 preventScroll
-                style={{content: {width: '30rem', height: '20rem'}}}
+                style={{content: { height: '20rem'}}}
                 ariaHideApp={false}
                 onRequestClose={onCloseDuaModalHandler}
-                className="w-full h-[20rem] m-auto rounded-lg fixed inset-0 bg-white overflow-auto p-3.5"
+                className="w-full md:w-[30rem] m-auto rounded-lg fixed inset-0 bg-white overflow-auto p-3.5"
                 overlayClassName=""
             >
                 <div className='relative mb-5'>
