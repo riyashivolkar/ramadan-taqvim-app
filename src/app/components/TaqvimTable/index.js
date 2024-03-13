@@ -14,15 +14,12 @@ export default function TaqvimTable() {
     return localStorageData ? JSON.parse(localStorageData) : {};
   });
 
-  // Function to handle checkbox change
   const handleCheckboxChange = (entryId) => {
-    // Update the state
     setIsChecked((prevState) => ({
       ...prevState,
       [entryId]: !prevState[entryId],
     }));
 
-    // Update localStorage
     localStorage.setItem(
       "checkboxData",
       JSON.stringify({
