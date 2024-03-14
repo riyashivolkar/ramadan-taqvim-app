@@ -9,10 +9,15 @@ export default function TaqvimTable() {
   const { data, isLoading } = useSWR("/api/taqvim", fetcher);
   const { onFilterByRegionSelected, filter, filterRegions } = useFilter();
 
-  const [isChecked, setIsChecked] = useState(() => {
-    const localStorageData = localStorage.getItem("checkboxData");
-    return localStorageData ? JSON.parse(localStorageData) : {};
-  });
+  const [isChecked, setIsChecked] = useState({});
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const localStorageData = localStorage.getItem("checkboxData");
+
+      setIsChecked(localStorageData ? JSON.parse(localStorageData) : {});
+    }
+  }, []);
 
   const handleCheckboxChange = (entryId) => {
     setIsChecked((prevState) => ({
